@@ -11,8 +11,12 @@
 <body>
     <h1>My first page</h1>
     <p>My google image</p>
-    <img src="images/google.jpg" alt="google image">
-    <p>The list of headers in html</p>
+    <img src="images/google.jpg" width="319" height="158" alt="google image" usemap="#google">
+
+    <map name="google">
+        <area shape="rect" coords="26, 33, 96, 106" alt="g" href="page.html" target="_blank">
+    </map>
+    <p id="a1">The list of headers in <abbr title="Hypertext Markup Language">html</abbr></p>
     <ul>
         <li>h1</li>
         <li>h2</li>
@@ -25,7 +29,8 @@
     <p>
         <button>Change user</button>
     </p>
-    <script src="scripts/main.js"></script>
+    <address>Call me maybe</address>
+    <!--<script src="scripts/main.js"></script>-->
 </body>
 
 </html>
