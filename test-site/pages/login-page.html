@@ -4,31 +4,36 @@
 <head>
     <title>Login</title>
     <meta content="text/html;charset=UTF-8">
+    <link rel="stylesheet" type="text/css" href="../styles/login-styles.css">
 </head>
 
 <body>
-    <h2>Login</h2>
-    <form action="">
-        <table>
-            <tr>
-                <td>Username</td>
-                <td>
-                    <input type="text" name="USERNAME">
-                </td>
-            </tr>
-            <tr>
-                <td>Password</td>
-                <td>
-                    <input type="text" name="PASSWORD">
-                </td>
-            </tr>
-            <tr>
-                <td colspan="2">
-                    <input type="submit" value="send">
-                </td>
-            </tr>
-        </table>
-    </form>
+    <div class="content">
+        <div class="center control-group">
+            <div class="lable" id="title">
+                <h1>Sign in</h1>
+            </div>
+            <div class="controls" id="email-label">
+                <label for="email">Email-Adress:</label>
+            </div>
+            <div class="controls" id="email">
+                <input type="text" id="email-input">
+            </div>
+            <div class="controls" id="password-label">
+                <label for="password">Password:</label>
+            </div>
+            <div class="controls" id="password">
+                <input type="text" id="password-input">
+            </div>
+            <div class="controls" id="submit">
+                <input type="submit" id="submit-button" value="Login">
+            </div>
+            <div class="controls" id="signup">
+                <a href="../pages/register-page.html">or register now</a>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>
