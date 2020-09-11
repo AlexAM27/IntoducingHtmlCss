@@ -1,0 +1,45 @@
+body {
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+#menu1 ul {
+    margin: 5px;
+padding: 0px;
+}
+
+#menu1 li {
+    width: 200px;
+    border: 1px solid rgb(90, 143, 241);
+    margin: 5px;
+    list-style-type: none;
+    text-align: -webkit-match-parent;
+    display: list-item;
+    line-height: 30px;
+}
+
+#menu1 a {
+    display: block;
+    font-weight: bold;
+    padding: 10px, 100%, 10px, 5px;
+}
+
+#menu1 a:link, #menu1 a:visited {
+    padding: 0px 5px;
+    color: white;
+    background-color:  rgb(90, 143, 241);
+    text-decoration: none;
+}
+
+#menu1 a:hover {
+    color: rgb(90, 143, 241);
+    background-color:  white;
+    text-decoration: none;
+}
+
+#news a:link, #news a:visited, #news a:hover {
+    color: rgb(90, 143, 241);
+    padding: 10px, 100%, 10px, 5px;
+    background: white url("./blue.png") no-repeat 90% center;
+}
