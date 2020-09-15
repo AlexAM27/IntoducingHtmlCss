@@ -4,19 +4,43 @@ body {
     font-size: 13px;
 }
 
-li {
+#first li {
     border: 1px solid black;
-    padding: 0 5px;
+    margin: 5px;
+    padding: 0px 0px;
     list-style-type: none;
     float: inline-start;
     margin-right: 5px;
 }
 
-a:link, a:visited {
+#first a:link, #first a:visited {
     text-decoration: none;
 }
 
-a:hover {
+#first a:hover {
     color: red;
     text-decoration: none;
+}
+
+#second li {
+    width: 200px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 0px 0px;
+    display: inline-block;
+    text-align: -webkit-match-parent;
+    list-style-type: none;
+    text-align: center; 
+}
+
+#second a:link, #second a:visited {
+    text-decoration: none;
+    line-height: 30px;
+}
+
+#second a:hover {
+    color: white;
+    text-decoration: none;
+    line-height: 30px;
+    background-color: #484848;
 }

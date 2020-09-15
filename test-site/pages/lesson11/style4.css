@@ -1,0 +1,35 @@
+body {
+    display: block;
+    margin: 8px;
+}
+
+
+
+ul {
+    display: block;
+    list-style-type: none;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: inline-block;
+    text-align: -webkit-match-parent;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: blue;
+    font: 13px Arial;
+    border: 1px solid #1A31A2;
+    padding: 5px;
+}
+
+a:hover, a.news {
+    color: #fff;
+    background-color: #484848;
+    border: 1px solid black;
+}
