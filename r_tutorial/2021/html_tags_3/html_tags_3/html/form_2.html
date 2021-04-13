@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Register form</h1>
+    <p>register form</p>
+    <form action="#" method="POST">
+        <h3>Section 1 - Required</h3>
+        <div>
+            <p><label for="firstname">Firstname:</label></p>
+            <div>
+                <input type="text" name="firstname" placeholder="Max" tabindex="1">
+            </div>
+        </div>
+        <div>
+            <p><label for="lastname">Lastname:</label></p>
+            <div>
+                <input type="text" name="lastname" placeholder="Mustermann" tabindex="2">
+            </div>
+        </div>
+        <div>
+            <p><label for="password">Password:</label></p>
+            <div>
+                <input type="password" name="password" tabindex="3">
+            </div>
+        </div>
+        <div>
+            <p><label for="title">Title:</label></p>
+            <div>
+                <input type="text" name="title" value="" placeholder="e.g. Director" tabindex="4">
+            </div>
+        </div>
+        <div>
+            <p><label for="company">Company:</label></p>
+            <div>
+                <input type="text" name="company" value="" tabindex="5">
+            </div>
+        </div>
+        <div>
+            <p><label for="phone">Phone:</label></p>
+            <div>
+                <input type="tel" name="phone" placeholder="+49 ..." tabindex="6">
+            </div>
+        </div>
+        <div>
+            <p><label for="email">Email:</label></p>
+            <div>
+                <input type="email" name="email" placeholder="max.mustermann@gmail.com" tabindex="7">
+            </div>
+        </div>
+        <div>
+            <p><label for="country">Country/Region:</label></p>
+            <select name="country" tabindex="8">
+                <option selected value="0">Russia</option>
+                <option value="1">France</option>
+                <option value="2">Germany</option>
+                <option value="3">USA</option>
+                <option value="4">Canada</option>
+            </select>
+        </div>
+        <h3>Section 2 - Optional</h3>
+        <div>
+            <p><label for="marketing">Top Marketing Challenges</label></p>
+            <div>
+                <input type="checkbox" name="m1" value="yes" tabindex="10">Marketing
+            </div>
+            <div>
+                <input type="checkbox" name="m2" value="yes" tabindex="11">Marketing 2
+            </div>
+            <div>
+                <input type="checkbox" name="m3" value="yes" tabindex="12">Marketing 3
+            </div>
+            <div>
+                <input type="checkbox" name="m4" value="yes" tabindex="13">Marketing 4
+            </div>
+        </div>
+        <div>
+            <p><label for="radiobuttons">RadioButtons</label></p>
+            <div>
+                <input type="radio" name="b" value="yes" tabindex="14" checked>B1
+            </div>
+            <div>
+                <input type="radio" name="b" value="yes" tabindex="14">B2
+            </div>
+            <div>
+                <input type="radio" name="b" value="yes" tabindex="14">B3
+            </div>
+        </div>
+        <div>
+            <p>
+                <label for="image">Image</label>
+            <div>
+                <input type="file" name="file">
+            </div>
+            </p>
+        </div>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+
+</html>
