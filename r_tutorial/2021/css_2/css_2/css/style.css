@@ -91,18 +91,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .textright {
-    /* text-align: right; */
+    text-align: right;
     /* text-align: center; */
-    text-align: justify;
+    /* text-align: justify; */
+}
+
+.textcenter {
+    text-align: center;
 }
 
 .decoration {
-    text-decoration: line-through; 
+    /* text-decoration: line-through;  */
     /* underline, overline, none */
+    text-decoration: underline;
+}
+
+.linetrought {
+    /* text-decoration: line-through;  */
+    /* underline, overline, none */
+    text-decoration: line-through;
 }
 
 .shadow {
-    text-shadow: 1px, 1px, 1px, #FF0000;
+    text-shadow: 1px, 1px, 1px, #000000;
 }
 
 .transform {
@@ -122,13 +133,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .whitespacing {
-    white-space: nowrap;
+    white-space: 15px;
 }
 
 .lineheight {
     line-height: 20px;
 }
 
-.header {
+.fontsize40 {
     font-size: 40px;
+}
+
+.fontsize35 {
+    font-size: 35px;
+}
+
+.fontsize25 {
+    font-size: 25px;
 }

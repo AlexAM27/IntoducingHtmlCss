@@ -69,3 +69,31 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
 }
 /* -------------------------------------------------- */
+
+.example-block {
+    /* margin: 10px 20px 30px 40px; */
+    /* padding: 10px 20px 30px 40px; */
+    /* width: 500px; */
+    /* max-width: 500px; */
+    /* min-width: 200px;
+    height: 200px; */
+    /* max-height: ;
+    min-height: ; */
+    overflow: auto;
+    /* display: inline; */
+    max-height: 200px;
+    border: 1px solid #000;
+}
+
+.example-string {
+    border: 1px solid #000;
+    display: block;
+    width: 500px;
+}
+
+.example-image {
+    width: 100px;
+    max-width: 500px;
+    min-width: 100px;
+    height: 100px;
+}
