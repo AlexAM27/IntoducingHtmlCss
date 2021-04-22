@@ -71,6 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 /* -------------------------------------------------- */
 body {
     background-color: #e8e8e8;
+    background: url(../img/Ellipse_1_copy.png) 50% 130px no-repeat;
 }
 
 .content {
@@ -133,10 +134,6 @@ body {
     margin: 0;
 }
 
-.content-bottom-info {
-
-}
-
 .content-bottom-info__list {
     margin-bottom: 55px;
 }
@@ -181,9 +178,16 @@ body {
     padding: 0px 30px;
     box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
     background-color: #80B7B3;
+    border-radius: 25px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    text-transform: uppercase; 
+    letter-spacing: 2.8px;
 }
 
 .content-bottom-info__link span {
-    
-    
+    background: url(../img/icons/Shape_2.svg) right no-repeat;
+    padding-right: 30px;
 }
