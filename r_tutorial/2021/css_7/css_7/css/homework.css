@@ -139,6 +139,7 @@ body {
     box-shadow: 0 6px 40px rgba(128, 183, 179, 0.54);
     background-color: #80b7b3;
     border-radius: 25px;
+    position: relative;
 }
 
 .content-button__link:hover {
@@ -146,7 +147,7 @@ body {
 }
 
 .content-button__link:active {
-    background-color: #818181;
+    background-color: #3a5856;
 }
 
 .content-button__link span {
@@ -165,6 +166,9 @@ body {
     margin: auto 0px;
     display: inline-block;
     padding-left: 10px;
+    position: absolute;
+    top: 2px;
+    left: 150;
 }
 
 .content-bottom__text-first {
