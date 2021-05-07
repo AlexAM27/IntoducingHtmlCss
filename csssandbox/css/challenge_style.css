@@ -33,8 +33,10 @@ form {
 
 input {
     margin-bottom: 15px;
+    width: 100%;
+    border: #ddd solid 1px;
+    border-radius: 5px;
     height: 30px;
-    width: 355px;
 }
 
 button {
@@ -43,6 +45,7 @@ button {
     width: 350px;
     background-color: #49c1a2;
     border: none;
+    border-radius: 5px;
 }
 
 button span {
@@ -63,3 +66,16 @@ a {
     text-decoration: none;
 }
 
+footer {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 500;
+}
+
+footer span {
+    color: white;
+}
+
+footer a {
+    color: #49c1a2;
+}
