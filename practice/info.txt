@@ -1,0 +1,3 @@
+задачи взяты из:
+http://old.code.mu/tasks/css/
+http://htmlbook.ru/practical
