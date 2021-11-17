@@ -1,0 +1,55 @@
+body {
+    font-family: sans-serif;
+    border: 5px solid #000;
+}
+
+h1, h2, .shipping, button {
+    text-transform: uppercase;
+}
+
+h1 {
+    text-align: center;
+    background-color: #d4d4d4;
+}
+
+.price {
+    font-weight: bold;
+}
+
+.shipping {
+    color: #b3b3b3;
+}
+
+p {
+    font-size: 12px;
+}
+
+a:link, a:visited {
+    color: #000;
+}
+
+a:hover, a:active {
+    text-decoration: none;
+}
+
+li {
+    list-style: square;
+}
+
+button {
+    color: #fff;
+    font-size: 22px;
+    background-color: #000;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #000;
+    font-size: 22px;
+    background-color: #fff;
+
+}
+
+
+
+

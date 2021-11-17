@@ -1,4 +1,4 @@
-h1, h2, h3, h4, p, li {
+body {
     font-family: sans-serif;
     color: rgba(68, 68, 68, 0.76);
 }
@@ -62,4 +62,25 @@ aside {
     border-top: 5px solid #1092ad;
     border-bottom: 5px solid #1092ad;
     background-color: #f7f7f7;
+}
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+a:link {
+    color: #1092ad;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f00;
+}
+
+a:visited {
+    color: #1092ad;
 }
