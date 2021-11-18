@@ -1,19 +1,38 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
 body {
     font-family: sans-serif;
+}
+
+article {
     border: 5px solid #000;
+    width: 825px;
+    margin: 5% auto;
 }
 
 h1, h2, .shipping, button {
     text-transform: uppercase;
+    margin-bottom: 20px;
 }
 
 h1 {
     text-align: center;
     background-color: #d4d4d4;
+    padding: 10px auto;
+}
+
+.sneakers {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
 }
 
 .price {
     font-weight: bold;
+    margin-bottom: 5px;
 }
 
 .shipping {
@@ -22,6 +41,12 @@ h1 {
 
 p {
     font-size: 12px;
+    margin-bottom: 15px;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 15px;
 }
 
 a:link, a:visited {
@@ -34,6 +59,8 @@ a:hover, a:active {
 
 li {
     list-style: square;
+    margin-left: 25px;
+    margin-bottom: 15px;
 }
 
 button {
@@ -41,13 +68,16 @@ button {
     font-size: 22px;
     background-color: #000;
     cursor: pointer;
+    margin-bottom: 0;
+    width: 100%;
+    border: none;
+    border-top: 5px solid #000;
 }
 
 button:hover {
     color: #000;
     font-size: 22px;
     background-color: #fff;
-
 }
 
 
