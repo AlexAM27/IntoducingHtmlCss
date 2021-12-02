@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -11,7 +12,7 @@ body {
 }
 
 .container {
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
     position: relative;
 }
@@ -19,6 +20,7 @@ body {
 article {
     margin-bottom: 60px;
     position: relative;
+    width: 65%;
 }
 
 nav {
@@ -50,6 +52,7 @@ h4 {
     font-size: 20px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 p {
@@ -67,9 +70,16 @@ li {
     font-size: 20px;
 }
 
+.author-image {
+    float: left;
+}
+
 #author {
     font-size: 18px;
     font-style: italic;
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
 }
 
 #copyright {
@@ -84,6 +94,7 @@ li {
 
 .without-points {
     list-style: none;
+    margin-left: 0;
 }
 
 .main-header {
@@ -100,8 +111,8 @@ aside {
     border-top: 5px solid #1092ad;
     border-bottom: 5px solid #1092ad;
     background-color: #f7f7f7;
-    padding: 50px 0;
-    width: 500px;
+    padding: 50px 40px;
+    width: 30%;
 }
 
 li {
@@ -169,4 +180,30 @@ h2::after {
     position: absolute;
     top: -15px;
     right: -15px;
+}
+
+h1 {
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+article {
+    float: left;
+}
+
+aside {
+    float: right;
+}
+
+footer {
+    clear: both;
 }
