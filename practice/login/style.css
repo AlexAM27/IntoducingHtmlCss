@@ -1,0 +1,88 @@
+/* RESET DEFAULT SETTINGS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GLOBAL SETTINGS */
+
+body {
+    background-color: #1864ab;
+    font-family: 'Inter', sans-serif;
+}
+
+.container,
+.login-container {
+    height: 540px;
+    width: 380px;
+    margin: 20px auto;
+    background-color: #e7f5ff;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.login-container {
+    height: 280px;
+}
+
+h1 {
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+h4,
+.login-label {
+    margin-bottom: 40px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    align-items: center;
+    width: 280px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #868e96;
+    font-size: 20px;
+    background-color: #e7f5ff;
+    line-height: 1.5;
+}
+
+.agreement {
+    font-size: 14px;
+}
+
+/*  */
+
+input:last-child {
+    margin-top: 40px;
+    border: 1px solid #868e96;
+    border-radius: 10px;
+    background-color: #1864ab;
+    color: #e7f5ff;
+    cursor: pointer;
+}
+
+.login-link,
+.sign-up {
+    text-align: center;
+    margin-top: -10px;
+}
+
+.login-link a,
+.sign-up a {
+    color: #e7f5ff;
+}
+
+.login-password {
+    margin-bottom: 0;
+}
+
+/* .login-btn {
+    padding-bottom: 20px;
+} */
