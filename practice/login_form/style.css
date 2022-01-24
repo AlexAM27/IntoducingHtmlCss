@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    font-size: 19px;
+    background-image: url("./laptop.jpg");
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #868e96;
+}
+
+h1 {
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+
+.login-form {
+    height: 220px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgba(173, 181, 189, 0.342);
+    padding: 20px;
+    color: #ced4da;
+    border-radius: 5px;
+}
+
+input {
+    line-height: 2;
+    border-radius: 5px;
+}
+
+.btn {
+    text-transform: uppercase;
+    color: #868e96;
+}
+
