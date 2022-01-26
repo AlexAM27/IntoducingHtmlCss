@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+}
+
+.container {
+    height: 500px;
+    width: 500px;
+    background-color: #e6eeff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.infinity-image {
+    display: block;
+    margin: 60px auto;
+    height: 30px;
+}
+
+.header {
+    text-align: center;
+}
+
+.email-image {
+    height: 25.5px;
+    width:  25.5px;
+}
+
+.email-area input {
+    border: none;
+    height: 25.5px;
+    padding-left: 35px;
+    background: url("./envelope-simple.png") no-repeat scroll 18px 18px;
+}
